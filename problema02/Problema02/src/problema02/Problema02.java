@@ -32,8 +32,8 @@ public class Problema02 {
                 
         area = (base * altura) / 2;
         
-        System.out.printf("AREA DEL TRIANGULO\n------\nBase: %f\nAltura: %f\n------\nArea: %f\n"
-                ,base , altura , area);
+        System.out.printf("AREA DEL TRIANGULO\n------\nBase: %.2f\nAltura: %.2f"
+                + "\n------\nArea: %.2f\n",base , altura , area);
         
     }
     

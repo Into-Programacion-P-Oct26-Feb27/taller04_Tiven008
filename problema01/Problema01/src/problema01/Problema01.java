@@ -48,10 +48,20 @@ public class Problema01 {
         
         gasto_mensual = gasto1 + gasto2 + gasto3;
         
-        System.out.printf("CONTROL DE GASTOS DE PROYECTOS\nProyectos:\n-------\n"
-                + "1.%s: $%.2f\n\n2.%s: $%.2f\n\n3.%s: $%.2f\n------\n"
-                + "GASTO MENSUAL TOTAL: $%.2f\n",proyecto1, gasto1, proyecto2,gasto2,
+        System.out.printf("""
+                          CONTROL DE GASTOS DE PROYECTOS
+                          Proyectos:
+                          -------
+                          1.%s: $%.2f
+                          
+                          2.%s: $%.2f
+                          
+                          3.%s: $%.2f
+                          ------
+                          GASTO MENSUAL TOTAL: $%.2f
+                          """,proyecto1, gasto1, proyecto2,gasto2,
                 proyecto3 , gasto3 , gasto_mensual);
+
         
     }
     
